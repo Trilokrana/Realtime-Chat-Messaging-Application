@@ -4,6 +4,7 @@ import 'react-loading-skeleton/dist/skeleton.css'
 
 interface loadingProps {}
 
+
 const loading: FC<loadingProps> = ({}) => {
   return (
     <div className='w-full flex flex-col gap-3'>
